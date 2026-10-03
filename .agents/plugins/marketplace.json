@@ -1,0 +1,20 @@
+{
+  "name": "cyberpigeon",
+  "interface": {
+    "displayName": "Cyberpigeon"
+  },
+  "plugins": [
+    {
+      "name": "cyberpigeon",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cyberpigeon"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
