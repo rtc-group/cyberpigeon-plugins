@@ -1,12 +1,18 @@
 {
   "name": "cyberpigeon",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Give your AI an email inbox to read expected messages, send authorized email and continue conversations.",
   "author": {
     "name": "Cyberpigeon",
     "url": "https://cyberpigeon.ai"
   },
   "homepage": "https://cyberpigeon.ai/integrations",
+  "repository": "https://github.com/rtc-group/cyberpigeon-plugins",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://cyberpigeon.ai/integrations/claude",
+  "supportUrl": "https://cyberpigeon.ai/integrations#help",
+  "privacyPolicyUrl": "https://cyberpigeon.ai/legal/privacy",
+  "termsOfServiceUrl": "https://cyberpigeon.ai/legal/terms",
   "keywords": [
     "email",
     "inbox",
