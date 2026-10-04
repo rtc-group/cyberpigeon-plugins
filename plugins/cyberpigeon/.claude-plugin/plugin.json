@@ -1,6 +1,6 @@
 {
   "name": "cyberpigeon",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Give your AI an email inbox to read expected messages, send authorized email and continue conversations.",
   "author": {
     "name": "Cyberpigeon",
