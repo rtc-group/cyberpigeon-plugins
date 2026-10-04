@@ -9,7 +9,7 @@
       "name": "cyberpigeon",
       "source": "./plugins/cyberpigeon",
       "description": "Give your AI an email inbox to read expected messages, send authorized email and continue conversations.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "category": "productivity"
     }
   ],
