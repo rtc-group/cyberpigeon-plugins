@@ -1,0 +1,8 @@
+{
+  "name": "cyberpigeon",
+  "owner": { "name": "Cyberpigeon", "email": "support@cyberpigeon.ai" },
+  "metadata": { "description": "Email tools and workflows for connected AI inboxes." },
+  "plugins": [
+    { "name": "cyberpigeon", "source": "plugins/cyberpigeon", "category": "productivity" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "cyberpigeon",
+  "version": "0.1.3",
+  "description": "Give your AI an email inbox to read expected messages, send authorized email and continue conversations.",
+  "author": { "name": "Cyberpigeon", "email": "support@cyberpigeon.ai" },
+  "homepage": "https://cyberpigeon.ai/integrations",
+  "repository": "https://github.com/rtc-group/cyberpigeon-plugins",
+  "license": "MIT",
+  "keywords": ["email", "inbox", "mcp", "transactional-email"],
+  "logo": "assets/icon.png",
+  "skills": "./skills/",
+  "mcpServers": { "cyberpigeon": { "url": "https://cyberpigeon.ai/mcp" } }
+}
