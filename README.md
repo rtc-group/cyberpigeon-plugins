@@ -23,7 +23,7 @@ Restart the Codex desktop app, choose the Cyberpigeon marketplace in the Plugins
 
 In Cursor's **Customize** panel, import `https://github.com/rtc-group/cyberpigeon-plugins` using **From GitHub Repository**, then install Cyberpigeon. For a managed team marketplace, an administrator can import the repository through **Dashboard → Plugins & MCPs**. Organization policies can limit imports.
 
-For a local installation, clone this repository into a new folder and copy `plugins/cyberpigeon` into `~/.cursor/plugins/local/cyberpigeon`. Use a real directory, not a symlink to this checkout. Restart Cursor or run **Developer: Reload Window**, then inspect the plugin and MCP server in Customize. Do not overwrite an existing installation without reviewing it first.
+For a local installation instead, uninstall any marketplace copy of Cyberpigeon first: Cursor gives it precedence over a local plugin with the same name. Then clone this repository into a new folder and copy `plugins/cyberpigeon` into `~/.cursor/plugins/local/cyberpigeon`. Use a real directory, not a symlink to this checkout. Restart Cursor or run **Developer: Reload Window**, then inspect the plugin and MCP server in Customize. Do not overwrite an existing installation without reviewing it first.
 
 Complete the server's OAuth sign-in and choose the inbox and read/send permissions. The Cursor manifest and root marketplace catalog reference the same email workflow and hosted endpoint as the other clients. This repository is installable independently of a public Cursor Marketplace listing; public listing requires Cursor's review.
 
